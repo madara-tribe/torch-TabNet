@@ -31,8 +31,7 @@ def pd_country(df):
     # country
     #countries = df[df["pm25_mid"]>200]["Country"].value_counts()
     #count_list = list(countries.keys())
-    #countries_ = ['India', 'China']
-    #df["Country"] = np.where((df["Country"].isin(countries_)), 1, 0)
+    #df["Country"] = np.where((df["Country"].isin(count_list)), 1, 0)
     return df
     
     
